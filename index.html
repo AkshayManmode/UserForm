@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+    <title>IONET Reistration Form</title>
+</head>
+
+<body>
+    <form class="omkar-form">
+        <div class="container">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+
+            <label for="name"><b>Name</b></label>
+            <input type="text" name="username" placeholder="Enter Username" required>
+            
+            <label for="date"><b>Date Of Birth</b></label>
+            <input type="date" placeholder="Enter" name="date" required>
+
+            <label for="addr"><b>Current Address</b></label>
+            <input type="text" placeholder="Enter Address" name="addr" required>
+
+            <label for="email"><b>Phone Number</b></label>
+            <br>
+            <select name="phoneCode" required>
+                <option selected value="">+91</option>
+                <option value="66">+91</option>
+                <option value="66">+99</option>
+                <option value="66">+90</option>
+                <option value="66">+66</option>
+            </select>
+            <input type="phone" name="phone" placeholder="0123456789" required>
+
+
+
+            <label for="pincode"><b>Pin Code</b></label>
+            <input type="number" placeholder="Enter pin Code" name="pincode" required>
+
+
+            <label for="Pan Number"><b>Pan Number</b></label>
+            <input type="text" placeholder="Enter pan number" name="pan" required>
+
+
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <div class="clearfix">
+
+                <button type="submit" class="btn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
